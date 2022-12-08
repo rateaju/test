@@ -159,7 +159,7 @@ $users_online_query = mysqli_query($connection, $query);
                     </div>
                     <div class="col-xs-9 text-right">
                     <?php
-                    $query = "SELECT * FROM Categories";
+                        $query = "SELECT * FROM Categories";
                         $select_all_Categories = mysqli_query($connection,$query);
                         $Categories_count = mysqli_num_rows($select_all_Categories);
 
